@@ -78,10 +78,19 @@ s1.display()
 let s2 = Student(sid: 40, fname: "Maninder", lname: "Singh")
 s2.display()
 
-//class Student1{
-//    private var sid : Int
-//    private var fname : String
-//    private var lname : String
-//    
-//    
-//}
+
+// Storing the objects in array
+
+let s11 = Student(sid: 40, fname: "Steven", lname: "Glaim")
+let s22 = Student(sid: 41, fname: "Sean", lname: "Durkin")
+let s33 = Student(sid: 42, fname: "Dave", lname: "Strangler")
+
+var s = [Student]()
+s.append(s11)
+s.append(s22)
+s.append(s33)
+
+for x in s
+{
+    x.display()
+}
