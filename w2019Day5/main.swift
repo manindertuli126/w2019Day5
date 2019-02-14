@@ -50,3 +50,8 @@ for x in s
 var c1 = Car()
 c1.setData(vin: "TGFB32", model: "Audi", type: "SUV", speed: 120.0, color: .Grey)
 c1.displayDetails()
+
+// code to display enum list
+for k in Color.allCases{
+ print(k)
+}
