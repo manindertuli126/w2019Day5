@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9B9F67D32214D31900C371D8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F67D22214D31900C371D8 /* main.swift */; };
 		9B9F67DA2214E83B00C371D8 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F67D92214E83B00C371D8 /* Student.swift */; };
+		9B9F67DC2214E8DE00C371D8 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F67DB2214E8DE00C371D8 /* Person.swift */; };
+		9B9F67DE2214E9C200C371D8 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9F67DD2214E9C200C371D8 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		9B9F67CF2214D31900C371D8 /* w2019Day5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = w2019Day5; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9F67D22214D31900C371D8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B9F67D92214E83B00C371D8 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		9B9F67DB2214E8DE00C371D8 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B9F67DD2214E9C200C371D8 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				9B9F67D22214D31900C371D8 /* main.swift */,
 				9B9F67D92214E83B00C371D8 /* Student.swift */,
+				9B9F67DB2214E8DE00C371D8 /* Person.swift */,
+				9B9F67DD2214E9C200C371D8 /* Car.swift */,
 			);
 			path = w2019Day5;
 			sourceTree = "<group>";
@@ -122,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9F67DC2214E8DE00C371D8 /* Person.swift in Sources */,
 				9B9F67D32214D31900C371D8 /* main.swift in Sources */,
+				9B9F67DE2214E9C200C371D8 /* Car.swift in Sources */,
 				9B9F67DA2214E83B00C371D8 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
