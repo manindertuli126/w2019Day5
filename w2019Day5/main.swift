@@ -55,3 +55,43 @@ c1.displayDetails()
 for k in Color.allCases{
  print(k)
 }
+
+// Store and result - struct is fast
+//
+
+struct Employee {
+    var eid : Int
+    var ename : String
+    var salary : Float
+    
+    init() {
+        eid = -1
+        ename = String()
+        salary = 0.0
+    }
+    
+    func display(){
+        print(self.eid)
+        print(self.ename)
+        print(self.salary)
+    }
+    
+    //mutating - use to modify the struct attribute
+    mutating func setName(name: String){
+        self.ename = name
+    }
+}
+
+//var e1 = Employee(eid: 1, ename: "Sean Durkin", salary: 1200.0)
+var e1 = Employee()
+e1.display()
+
+var i: Int = 100
+var a: Int
+a = i
+a = 200
+//print(i,a)
+
+var e2 = e1
+e2.setName(name: "Steven")
+e2.display()
